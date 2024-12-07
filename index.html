@@ -11,12 +11,11 @@
         <section class="hero-image">
             <img src="metropole.jpg" alt="Vue de métropole avec des véhicules">
         </section>
-        
+
         <div class="logo">See-House</div>
         <nav>
             <ul>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#school-bus-tracking">Bus Scolaires</a></li>
                 <li><a href="#testimonials">Témoignages</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -50,39 +49,41 @@
         </div>
     </section>
 
-    <!-- Nouvelle section pour le suivi des bus scolaires -->
-    <section id="school-bus-tracking">
-        <h2>Suivi Intelligent des Bus Scolaires</h2>
-        <p>Offrez une tranquillité d'esprit aux parents et un outil pratique aux écoles. 
-           Notre solution de tracking GPS pour bus scolaires assure un suivi en temps réel, 
-           des notifications d'arrivée, et une sécurité renforcée pour les trajets de vos enfants.</p>
-        <ul>
-            <li><strong>Suivi en temps réel :</strong> Localisez le bus à tout moment.</li>
-            <li><strong>Notifications automatiques :</strong> Recevez des alertes sur le départ et l'arrivée.</li>
-            <li><strong>Sécurité et conformité :</strong> Surveillance pour éviter les déviations.</li>
-        </ul>
-        <img src="school-bus.jpg" alt="Bus scolaire suivi par GPS" class="feature-image">
-        <a href="#contact" class="btn">Contactez-nous pour une démonstration</a>
-    </section>
-
     <section id="testimonials">
         <h2>Témoignages</h2>
         <p>"Grâce au système de suivi de See-House, mes livraisons sont devenues 100% fiables." — Client satisfait</p>
         <p>"La télésurveillance de mon magasin avec See-House me permet de dormir tranquille." — Propriétaire de boutique</p>
     </section>
 
+    <section id="services-preview">
+        <div class="service-image">
+            <img src="gps-service.jpg" alt="Service GPS">
+            <h4>Service GPS</h4>
+        </div>
+        <div class="service-image">
+            <img src="camera-service.jpg" alt="Service Caméra">
+            <h4>Surveillance par Caméra</h4>
+        </div>
+        <div class="service-image">
+            <img src="delivery-service.jpg" alt="Service Livraison">
+            <h4>Livraison Intelligente</h4>
+        </div>
+    </section>
+
     <section id="contact">
         <h2>Contactez-nous</h2>
-        <form action="https://formspree.io/f/example" method="POST">
+        <!-- Formulaire connecté à Formspree -->
+        <form action="https://formspree.io/account/nonce=7c85e1e6-a144-4f23-a84f-770f9156d12e" method="POST">
+        <form action="https://formspree.io/f/mdkobwnv" method="POST">
             <label for="name">Nom</label>
             <input type="text" id="name" name="name" required>
-            
+
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            
+
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="4" required></textarea>
-            
+
             <button type="submit">Envoyer</button>
         </form>
         <div class="contact-info">
