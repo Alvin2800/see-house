@@ -39,6 +39,13 @@ header nav ul li a {
     text-decoration: none;
     z-index: 2;
 }
+.logo img {
+    max-width: 120px; /* Ajuste la taille */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrer le logo */
+}
+
 
 /* Section Hero */
 .hero {
